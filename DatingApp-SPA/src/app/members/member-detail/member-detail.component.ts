@@ -15,7 +15,6 @@ export class MemberDetailComponent implements OnInit {
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
 
-
   constructor(
     private userService: UserService,
     private alertify: AlertifyService,
