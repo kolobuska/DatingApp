@@ -79,6 +79,7 @@ namespace DatingApp.API
                 c.OperationFilter<SecurityRequirementsOperationFilter>();
             });
 
+            services.AddScoped<LogUserActivity>();
 
         }
 
